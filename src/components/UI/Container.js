@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {phone, tablet, laptop, desktop} from "components/UI/style-consts";
 
-const Container = styled.div`
+const Container = styled.section`
   @media (min-width: ${phone}) {
     width: ${phone};
     margin: 0 auto;

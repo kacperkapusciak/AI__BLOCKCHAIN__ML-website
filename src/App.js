@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route, withRouter, Redirect } from "react-router-dom";
-import Landing from "components/Landing";
+import Landing from "components/Landing/Landing";
 import Contact from "components/Contact";
 import "./App.css";
 

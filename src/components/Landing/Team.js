@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { phone, laptop, desktop, secondary } from "components/UI/style-consts";
+import { phone, laptop, secondary } from "components/UI/style-consts";
 
 import grzesiek from "images/grzesiek.jpeg";
 import kacper from "images/kacper.jpeg";
@@ -34,12 +34,6 @@ export default () => (
 const Team = styled.section`
   @media (min-width: ${phone}) {
     margin-bottom: 30px;
-  }
-  @media (min-width: ${laptop}) {
-    margin-bottom: 40px;
-  }
-  @media (min-width: ${desktop}) {
-    margin-bottom: 50px;
   }
 `;
 
@@ -75,9 +69,6 @@ const Card = styled.div`
       box-shadow: 6px 6px 25px #ccc;
       border-radius: 15px 15px 0 0;
     }
-  }
-  @media (min-width: ${desktop}) {
-    margin-bottom: 60px;
   }
 `;
 

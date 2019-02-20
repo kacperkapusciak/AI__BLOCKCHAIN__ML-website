@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "App";
 
 const app = (
-  <Router basename="/ai__blockchain__ml">
+  <Router basename="/AI__BLOCKCHAIN__ML-website">
     <App />
   </Router>
 );

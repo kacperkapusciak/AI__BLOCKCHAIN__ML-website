@@ -35,7 +35,7 @@ const Wrapper = styled.ul`
 const Btn = styled.li`
   display: inline;
   cursor: pointer;
-  padding: 15px;
+  padding: 18px;
   @media (min-width: ${phone}) {
     &:last-child {
       padding-right: 0;
@@ -51,7 +51,7 @@ const StyledNavLink = styled(NavLink)`
   font-weight: 700;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 7px 12px;
   &:hover {
     background: #eee;
   }

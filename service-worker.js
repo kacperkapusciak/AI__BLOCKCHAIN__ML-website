@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ai__blockchain__ml/precache-manifest.a0a2b71cce7102395f63dd99efb4ac7c.js"
+  "/AI__BLOCKCHAIN__ML-website/precache-manifest.63a119e906a15d15c04a07d1aea9b77a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ai__blockchain__ml/index.html", {
+workbox.routing.registerNavigationRoute("/AI__BLOCKCHAIN__ML-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

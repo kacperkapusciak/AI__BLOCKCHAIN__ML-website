@@ -1,18 +1,19 @@
 import styled from "styled-components";
+import {phone, tablet, laptop, desktop} from "components/UI/style-consts";
 
 const Container = styled.div`
-  @media (min-width: 576px) {
-    width: 576px;
+  @media (min-width: ${phone}) {
+    width: ${phone};
     margin: 0 auto;
   }
-  @media (min-width: 768px) {
-    width: 768px;
+  @media (min-width: ${tablet}) {
+    width: ${tablet};
   }
-  @media (min-width: 992px) {
-    width: 992px;
+  @media (min-width: ${laptop}) {
+    width: ${laptop};
   }
-  @media (min-width: 1200px) {
-    width: 1200px;
+  @media (min-width: ${desktop}) {
+    width: ${desktop};
   }
 `;
 

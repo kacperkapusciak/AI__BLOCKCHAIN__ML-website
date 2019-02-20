@@ -3,9 +3,10 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { phone, secondary } from "components/UI/style-consts";
+import Container from "components/UI/Container";
 
 export default () => (
-  <nav>
+  <Container>
     <Wrapper>
       <Btn>
         <StyledNavLink to="/">
@@ -20,7 +21,7 @@ export default () => (
         </StyledNavLink>
       </Btn>
     </Wrapper>
-  </nav>
+  </Container>
 );
 
 const Wrapper = styled.ul`

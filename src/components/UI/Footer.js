@@ -16,7 +16,6 @@ const Footer = styled.footer`
   padding: 20px;
   font-size: 12px;
   text-align: center;
-  margin-top: 20px;
 `;
 
 const StyledIcon = styled(FontAwesomeIcon)`

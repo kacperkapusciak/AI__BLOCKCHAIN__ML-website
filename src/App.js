@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 import Landing from "components/Landing/Landing";
-import Contact from "components/Contact";
+import Contact from "components/Contact/Contact";
 import "./App.css";
 
 // font-awesome boilerplate

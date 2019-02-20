@@ -55,6 +55,7 @@ const Avatars = styled.div`
   @media (min-width: ${laptop}) {
     grid-template-columns: repeat(4, 1fr);
   }
+  margin-bottom: 20px;
 `;
 
 const Card = styled.div`
@@ -89,6 +90,7 @@ const Name = styled.h3`
   text-align: left;
   border: 1px solid #ccc;
   border-radius: 0 0 6px 6px;
+  background: #fff;
 `;
 
 const A = styled.a`

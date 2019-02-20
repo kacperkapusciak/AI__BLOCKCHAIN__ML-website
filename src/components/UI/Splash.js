@@ -10,8 +10,8 @@ import {
   primary
 } from "components/UI/style-consts";
 
-export default () => (
-  <SplashSection>
+export default ({contact}) => (
+  <SplashSection className={contact}>
     <Splash>
       <Logo />
     </Splash>
@@ -47,6 +47,9 @@ const SplashSection = styled.section`
     width: ${laptop};
     background: ${primary};
     border-radius: 15px;
+    &.contact {
+      display:none;
+    }
   }
   @media (min-width: ${desktop}) {
     width: 100%;
